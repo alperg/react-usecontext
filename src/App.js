@@ -16,13 +16,13 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about/">About</Link>
+              <Link to="about/">About</Link>
             </li>
           </ul>
         </nav>
         <UserContext.Provider value={{user, setUser}}>
           <Route path="/" exact component={Home} />
-          <Route path="/about/" component={About} />
+          <Route path="about/" component={About} />
         </UserContext.Provider>
       </div>
     </Router>
