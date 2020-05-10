@@ -20,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://alperg.com/react-usecontext",
   "eslintConfig": {
     "extends": "react-app"
   },
