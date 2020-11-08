@@ -6,8 +6,8 @@ export function GrandChildComp(props) {
 
   return (
     <div>
-      <h2>----->  Grand Child Component</h2>
-      <p>----->  Logged in user: {user} from the second level!</p>
+      <h2>-----&gt;  Grand Child Component</h2>
+      {user && <p>-----&gt;  Logged in user: {user} from the second level!</p>}
     </div>
   );
 }

@@ -7,8 +7,8 @@ export function ChildComp(props) {
 
   return (
     <div>
-      <h2>->Child Component</h2>
-      <p>->Logged in user: {user} from the first level</p>
+      <h2>-&gt;Child Component</h2>
+      {user && <p>-&gt;Logged in user: {user} from the first level</p>}
       <GrandChildComp />
     </div>
   );

@@ -7,7 +7,7 @@ export function About() {
   return (
     <div>
       <h2>About</h2>
-      <p>Current user: {user}</p>
+      {user && <p>Current user: {user}</p>}
     </div>
   );
 }
